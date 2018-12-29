@@ -3,14 +3,23 @@ import logo from './logo.svg';
 import './App.css';
 
 import Preloader from './Components/Preloader/Preloader';
+import Home from './Components/Home/Home';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = { isLoading: true }
+  }
+
+  componentWillMount() {
+    // Set isLoading to false after DOM is rendered
+    this.setState({ isLoading: false });
+  }
+
   render() {
-    return (
-      <div className="App">
-      <Preloader />
-      </div>
-    );
+    const isLoading = this.state.isLoading;
+
+    return ( isLoading ? <Preloader/> : <Home/> );
   }
 }
 
