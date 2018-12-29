@@ -353,4 +353,10 @@ body {
     padding-left: 25.1rem;
   }
 }
+
+header {
+  height: 32vh;
+  background-color: #4A21FC;
+  border-bottom: 4px solid #fff;
+}
 /*# sourceMappingURL=App.css.map */
