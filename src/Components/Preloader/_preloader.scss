@@ -1,0 +1,255 @@
+.preloader {
+    display:block;
+    position:relative;
+    width:35%;
+    padding-left:0.5rem;
+    top:47vh;
+    margin:0 auto;
+
+    &__circle {
+        display:inline-block;
+        width:1rem;
+        height:1rem;
+        margin:0.5rem;
+        border-radius:50%;
+
+        &--purple {
+            background-color:$primaryColor;
+        }
+        &--white {
+            background-color:$tertiaryColor;
+        }
+    }
+}
+
+/* Preloader media queries styles */
+/* ========================================== MAX-WIDTH 320 PX ========================================== */
+
+@media only screen and (max-width: 320px) {
+}
+
+/* ========================================== MIN-WIDTH 321 PX ========================================== */
+@media only screen and (min-width: 321px) {
+    .preloader {
+        padding-left:0.5rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 350 PX ========================================== */
+@media only screen and (min-width: 350px){
+    .preloader {
+        padding-left:0.85rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 375 PX ========================================== */
+@media only screen and (min-width: 375px){
+    .preloader {
+        padding-left:1.2rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 400 PX ========================================== */
+@media only screen and (min-width: 400px){
+    .preloader {
+        padding-left:1.4rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 425 PX ========================================== */
+@media only screen and (min-width: 425px){
+    .preloader {
+        padding-left:1.6rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 450 PX ========================================== */
+@media only screen and (min-width: 450px){
+    .preloader {
+        padding-left:1.9rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 470 PX ========================================== */
+@media only screen and (min-width: 470px){
+    .preloader {
+        padding-left:2.1rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 500 PX ========================================== */
+@media only screen and (min-width: 500px){
+    .preloader {
+        padding-left:2.4rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 550 PX ========================================== */
+@media only screen and (min-width: 550px){
+    .preloader {
+        padding-left:3rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 600 PX ========================================== */
+@media only screen and (min-width: 600px){
+    .preloader {
+        padding-left:3.5rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 650 PX ========================================== */
+@media only screen and (min-width: 650px){
+    .preloader {
+        padding-left:4.2rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 700 PX ========================================== */
+@media only screen and (min-width: 700px){
+    .preloader {
+        padding-left:4.5rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 750 PX ========================================== */
+@media only screen and (min-width: 750px){
+    .preloader {
+        padding-left:5.3rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 768 PX ========================================== */
+@media only screen and (min-width: 768px) {
+    .preloader {
+        padding-left:5.5rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 800 PX ========================================== */
+@media only screen and (min-width: 800px){
+    .preloader {
+        padding-left:5.8rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 900 PX ========================================== */
+@media only screen and (min-width: 900px){
+    .preloader {
+        padding-left:6.8rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 950 PX ========================================== */
+@media only screen and (min-width: 950px){
+    .preloader {
+        padding-left:7.3rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 1024 PX ========================================== */
+@media only screen and (min-width: 1024px){
+    .preloader {
+        padding-left:8.2rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 1170 PX ========================================== */
+@media only screen and (min-width: 1170px){
+    .preloader {
+        padding-left:9.8rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 1280 PX ========================================== */
+@media only screen and (min-width: 1280px){
+    .preloader {
+        padding-left:11rem;
+    }
+}
+
+/* ========================================== MIN-WIDTH 1366 PX ========================================== */
+@media only screen and (min-width: 1366px){
+    .preloader {
+        padding-left:11.9rem;
+    }
+}
+
+  /* ========================================== MIN-WIDTH 1440 PX ========================================== */
+@media only screen and (min-width: 1440px){
+    .preloader {
+        padding-left:12.7rem;
+    }
+}
+
+  /* ========================================== MIN-WIDTH 1580 PX ========================================== */
+@media only screen and (min-width: 1580px){
+    .preloader {
+        padding-left:14.2rem;
+    }
+}
+
+  /* ========================================== MIN-WIDTH 1680 PX ========================================== */
+@media only screen and (min-width: 1680px){
+    .preloader {
+        padding-left:15.3rem;
+    }
+}
+
+  /* ========================================== MIN-WIDTH 1800 PX ========================================== */
+@media only screen and (min-width: 1800px){
+    .preloader {
+        padding-left:16.7rem;
+    }
+}
+
+  /* ========================================== MIN-WIDTH 1930 PX ========================================== */
+@media only screen and (min-width: 1930px){
+    .preloader {
+        padding-left:18.2rem;
+    }
+}
+
+  /* ========================================== MIN-WIDTH 2048 PX ========================================== */
+@media only screen and (min-width: 2048px){
+    .preloader {
+        padding-left:19.4rem;
+    }
+}
+
+  /* ========================================== MIN-WIDTH 2170 PX ========================================== */
+@media only screen and (min-width: 2170px){
+    .preloader {
+        padding-left:20.8rem;
+    }
+}
+
+  /* ========================================== MIN-WIDTH 2300 PX ========================================== */
+@media only screen and (min-width: 2300px){
+    .preloader {
+        padding-left:22.2rem;
+    }
+}
+
+  /* ========================================== MIN-WIDTH 2400 PX ========================================== */
+@media only screen and (min-width: 2400px){
+    .preloader {
+        padding-left:23.3rem;
+    }
+}
+
+  /* ========================================== MIN-WIDTH 2500 PX ========================================== */
+@media only screen and (min-width: 2500px){
+    .preloader {
+        padding-left:24.3rem;
+    }
+}
+
+  /* ========================================== MIN-WIDTH 2560 PX ========================================== */
+@media only screen and (min-width: 2560px){
+    .preloader {
+        padding-left:25.1rem;
+    }
+}
+
+
