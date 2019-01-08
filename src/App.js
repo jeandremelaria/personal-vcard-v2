@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Preloader from './Components/Preloader/Preloader';
-import Home from './Components/Home/Home';
+import Home from './Components/Layout/Home/Home';
 
 class App extends Component {
   constructor() {

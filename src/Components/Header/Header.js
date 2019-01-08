@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 import { Row, Col, Button, Icon } from 'react-materialize';
+import PropTypes from 'prop-types';
 
-const Header = () => {
+const header = (props) => {
+    // console.log(props);
+    // console.log('test');
     return(
         <header>
             <Row>
-                <Col>logo</Col>
+                <Col>
+                    <img src='../Assets/images/logo/logo.png'  alt='Logo'/>
+                
+                </Col>
                 <Col>menu</Col>
             </Row>
         </header>
     );
 }
 
-export default Header;
+export default header;
