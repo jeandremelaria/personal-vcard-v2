@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Row,  Col } from 'react-materialize';
 import Header from '../../Header/Header';
 import axios from 'axios';
 
@@ -30,10 +29,18 @@ class Home extends Component {
     render(){
         let header = null;
         
-        console.log(this.state.user[0]);
+        // Check if user is set
+        if(this.state.user[0]){
+            const user = this.state.user[0];
+
+            header = <Header logo={user.website_logo} />;
+        }
+        // console.log(this.state.user);
         
         return(
-            <Header/>
+            <div>
+                {header}
+            </div>
         );
     }
 }

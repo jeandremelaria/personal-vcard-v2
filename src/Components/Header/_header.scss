@@ -2,4 +2,30 @@ header {
    height: 32vh;
    background-color:$primaryColor;
    border-bottom: 4px solid $tertiaryColor;
+
+   .header__logo {
+      width:40%;
+      margin-top:0.7rem; 
+   }
+
+   .header__menu {
+      color:$tertiaryColor;
+      margin-top:0.2rem;
+      font-size:2rem;
+      margin-left:3.4rem;;
+   }
+}
+
+/* ========================================== MAX-WIDTH 320 PX ========================================== */
+@media only screen and (max-width: 320px) {
+}
+
+/* ========================================== MIN-WIDTH 321 PX ========================================== */
+@media only screen and (min-width: 375px) {
+}
+
+
+/* ========================================== MIN-WIDTH 2560 PX ========================================== */
+@media only screen and (min-width: 2560px){
+
 }

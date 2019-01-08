@@ -1,21 +1,27 @@
-import React, { Component } from 'react';
-import { Row, Col, Button, Icon } from 'react-materialize';
+import React from 'react';
+import { Row, Col } from 'react-materialize';
 import PropTypes from 'prop-types';
 
 const header = (props) => {
-    // console.log(props);
-    // console.log('test');
+    const logo = props.logo;
+    
     return(
         <header>
             <Row>
-                <Col>
-                    <img src='../Assets/images/logo/logo.png'  alt='Logo'/>
-                
+                <Col s={8} className="red">
+                    <img className="header__logo" src={require("../Assets/images/logo/" + logo)} alt="Logo" />
                 </Col>
-                <Col>menu</Col>
+                <Col s={4} className="green">
+                <i className="header__menu material-icons">menu</i>
+                </Col>
             </Row>
         </header>
     );
 }
 
 export default header;
+
+// Check proptypes
+header.propTypes = {
+    logo:PropTypes.string.isRequired
+}

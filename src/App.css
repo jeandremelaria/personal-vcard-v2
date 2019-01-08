@@ -359,4 +359,20 @@ header {
   background-color: #4A21FC;
   border-bottom: 4px solid #fff;
 }
+
+header .header__logo {
+  width: 40%;
+  margin-top: 0.7rem;
+}
+
+header .header__menu {
+  color: #fff;
+  margin-top: 0.2rem;
+  font-size: 2rem;
+  margin-left: 3.4rem;
+}
+
+/* ========================================== MAX-WIDTH 320 PX ========================================== */
+/* ========================================== MIN-WIDTH 321 PX ========================================== */
+/* ========================================== MIN-WIDTH 2560 PX ========================================== */
 /*# sourceMappingURL=App.css.map */
