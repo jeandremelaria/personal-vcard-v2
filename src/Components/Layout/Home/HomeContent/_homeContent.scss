@@ -1,0 +1,52 @@
+/* ----- Home Content Styles ----- */
+// General
+.profilePhoto {
+    width: 100%;
+    height: 15rem;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.user {
+    text-align: center;
+
+    &__firstname {
+        color: $quinaryColor;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    &__lastname {
+        color: $primaryColor;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    &__profileTitle {
+        margin: 0.5rem;
+        font-weight: bold;
+    }
+
+    &__profileSummary {
+        color: $quinaryColor;
+        margin-bottom: 2rem;
+    }
+
+    .btn {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+
+        &__portfolio {
+            display: inline-block;
+            margin: 0 0.5rem 1.5rem 0;
+        }
+
+        &__resume {
+            display: inline-block;
+        }
+    }
+}

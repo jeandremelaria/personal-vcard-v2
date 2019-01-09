@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import Header from '../../Header/Header';
+import { Row, Col } from 'react-materialize';
 import axios from 'axios';
+import Header from '../../Header/Header';
+import Sidebar from '../../Sidebar/Sidebar';
+import Content from '../Home/HomeContent/HomeContent';
+
 
 
 class Home extends Component {
@@ -27,19 +31,43 @@ class Home extends Component {
     }
 
     render(){
-        let header = null;
+        let header, sidebar, content = null;
         
         // Check if user is set
         if(this.state.user[0]){
             const user = this.state.user[0];
 
-            header = <Header logo={user.website_logo} />;
+            header = <Header logo = {user.website_logo} />;
+
+            sidebar = <Sidebar 
+                        email = {user.email}
+                        phone = {user.phone}
+                        website = { user.website_url}
+                        facebook = {user.facebook}
+                        instagram = {user.instagram}
+                        twitter = {user.twitter}
+                        dribbble = {user.dribbble}
+            />;
+
+            content = <Content 
+                        profilePhoto = {user.profile_photo}
+                        firstname = {user.firstname}
+                        lastname = {user.lastname}
+                        profileTitle = {user.profile_title}
+                        profileSummary = {user.profile_summary}
+            />;
         }
-        // console.log(this.state.user);
         
         return(
             <div>
-                {header}
+                <Row>
+                    <Col s={12} m={12} className="header">{header}</Col>
+                        {/* {sidebar} */}
+                    {/* <Col m={7} className="header">{content}</Col> */}
+                    
+                </Row>
+                {/* {header} */}
+
             </div>
         );
     }

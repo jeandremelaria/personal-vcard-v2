@@ -375,4 +375,25 @@ header .header__menu {
 /* ========================================== MAX-WIDTH 320 PX ========================================== */
 /* ========================================== MIN-WIDTH 321 PX ========================================== */
 /* ========================================== MIN-WIDTH 2560 PX ========================================== */
+.sidebar {
+  background-color: #4A21FC;
+  border-bottom: #fff solid 8px;
+  width: 100vw;
+  height: 35vh;
+}
+
+.header {
+  height: 9vh;
+  width: 107.5vw !important;
+  margin-left: -0.8rem !important;
+}
+
+/* ----- Home Content Styles ----- */
+.profilePhoto {
+  width: 100%;
+  height: 15rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
 /*# sourceMappingURL=App.css.map */
