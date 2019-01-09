@@ -26,6 +26,7 @@ time, mark, audio, video {
 
 body {
   line-height: 1;
+  overflow-x: hidden;
 }
 
 article, aside, details, figcaption, figure,
@@ -99,6 +100,9 @@ input, select {
 }
 
 /* Colors */
+/* Height & width */
+/* Padding */
+/* Font */
 body {
   background-color: #D2D2D2;
 }
@@ -354,6 +358,7 @@ body {
   }
 }
 
+/* ----- Header Styles ----- */
 header {
   height: 32vh;
   background-color: #4A21FC;
@@ -361,7 +366,7 @@ header {
 }
 
 header .header__logo {
-  width: 40%;
+  width: 70px;
   margin-top: 0.7rem;
 }
 
@@ -374,7 +379,145 @@ header .header__menu {
 
 /* ========================================== MAX-WIDTH 320 PX ========================================== */
 /* ========================================== MIN-WIDTH 321 PX ========================================== */
+/* ========================================== MIN-WIDTH 350 PX ========================================== */
+@media only screen and (min-width: 350px) {
+  .header__menu {
+    margin-left: 4rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 375 PX ========================================== */
+@media only screen and (min-width: 375px) {
+  .header__menu {
+    margin-left: 4.6rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 400 PX ========================================== */
+@media only screen and (min-width: 400px) {
+  .header__menu {
+    margin-left: 5rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 425 PX ========================================== */
+@media only screen and (min-width: 425px) {
+  .header__menu {
+    margin-left: 5.5rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 500 PX ========================================== */
+@media only screen and (min-width: 500px) {
+  .header .header__menu {
+    display: block;
+    position: relative;
+    left: 1.6rem;
+  }
+}
+
+/* ========================================== MIN-WIDTH 600 PX ========================================== */
+@media only screen and (min-width: 600px) {
+  .header .header__menu {
+    left: 4.8rem;
+  }
+}
+
+/* ========================================== MIN-WIDTH 700 PX ========================================== */
+@media only screen and (min-width: 700px) {
+  .header .header__menu {
+    left: 5.2rem;
+  }
+}
+
+/* ========================================== MIN-WIDTH 768 PX ========================================== */
+@media only screen and (min-width: 768px) {
+  header {
+    width: 30vw;
+  }
+  header .header__menu {
+    color: #545454;
+    left: 30.8rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 800 PX ========================================== */
+@media only screen and (min-width: 800px) {
+  header .header__menu {
+    left: 32.4rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 900 PX ========================================== */
+@media only screen and (min-width: 900px) {
+  header .header__menu {
+    left: 37.5rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 1024 PX ========================================== */
+@media only screen and (min-width: 1024px) {
+  header .header__menu {
+    left: 44rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 1100 PX ========================================== */
+@media only screen and (min-width: 1100px) {
+  header .header__menu {
+    left: 48rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 1200 PX ========================================== */
+@media only screen and (min-width: 1200px) {
+  header .header__menu {
+    left: 53.3rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 1300 PX ========================================== */
+@media only screen and (min-width: 1300px) {
+  header .header__menu {
+    left: 58.7rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 1366 PX ========================================== */
+@media only screen and (min-width: 1366px) {
+  header .header__menu {
+    left: 62rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 1440 PX ========================================== */
+@media only screen and (min-width: 1440px) {
+  header .header__menu {
+    left: 66rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 1707 PX ========================================== */
+@media only screen and (min-width: 1707px) {
+  header .header__menu {
+    left: 80rem !important;
+  }
+}
+
+/* ========================================== MIN-WIDTH 2048 PX ========================================== */
+@media only screen and (min-width: 2048px) {
+  header .header__menu {
+    left: 93.5rem !important;
+  }
+}
+
 /* ========================================== MIN-WIDTH 2560 PX ========================================== */
+@media only screen and (min-width: 2560px) {
+  header .header__menu {
+    left: 124.5rem !important;
+  }
+}
+
 .sidebar {
   background-color: #4A21FC;
   border-bottom: #fff solid 8px;
@@ -382,12 +525,14 @@ header .header__menu {
   height: 35vh;
 }
 
+/* ----- Home Styles ----- */
 .header {
   height: 9vh;
   width: 107.5vw !important;
   margin-left: -0.8rem !important;
 }
 
+/* ========================================== MIN-WIDTH 600 PX ========================================== */
 /* ----- Home Content Styles ----- */
 .profilePhoto {
   width: 100%;
@@ -395,5 +540,47 @@ header .header__menu {
   display: block;
   margin: 0 auto;
   position: relative;
+}
+
+.user {
+  text-align: center;
+}
+
+.user__firstname {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.user__lastname {
+  color: #4A21FC;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.user__profileTitle {
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.user__profileSummary {
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.user .btn {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.user .btn__portfolio {
+  display: inline-block;
+  margin: 0 0.5rem 1.5rem 0;
+}
+
+.user .btn__resume {
+  display: inline-block;
 }
 /*# sourceMappingURL=App.css.map */

@@ -8,10 +8,10 @@ const header = (props) => {
     return(
         <header>
             <Row>
-                <Col s={8} className="red">
+                <Col s={8}>
                     <img className="header__logo" src={require("../Assets/images/logo/" + logo)} alt="Logo" />
                 </Col>
-                <Col s={4} className="green">
+                <Col s={4}>
                 <i className="header__menu material-icons">menu</i>
                 </Col>
             </Row>
