@@ -379,30 +379,35 @@ header .header__menu {
   font-size: 2rem;
 }
 
+/* ========================================== MIN-WIDTH 350 PX ========================================== */
 @media only screen and (min-width: 350px) {
   .header__menu {
     margin-left: 4rem !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 375 PX ========================================== */
 @media only screen and (min-width: 375px) {
   .header__menu {
     margin-left: 4.6rem !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 400 PX ========================================== */
 @media only screen and (min-width: 400px) {
   .header__menu {
     margin-left: 5rem !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 425 PX ========================================== */
 @media only screen and (min-width: 425px) {
   .header__menu {
     margin-left: 5.5rem !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 500 PX ========================================== */
 @media only screen and (min-width: 500px) {
   .header .header__menu {
     display: block;
@@ -411,18 +416,21 @@ header .header__menu {
   }
 }
 
+/* ========================================== MIN-WIDTH 600 PX ========================================== */
 @media only screen and (min-width: 600px) {
   .header .header__menu {
     left: 4.8rem;
   }
 }
 
+/* ========================================== MIN-WIDTH 700 PX ========================================== */
 @media only screen and (min-width: 700px) {
   .header .header__menu {
     left: 5.2rem;
   }
 }
 
+/* ========================================== MIN-WIDTH 768 PX ========================================== */
 @media only screen and (min-width: 768px) {
   header {
     width: 30vw;
@@ -437,30 +445,35 @@ header .header__menu {
   }
 }
 
+/* ========================================== MIN-WIDTH 800 PX ========================================== */
 @media only screen and (min-width: 800px) {
   header .header__menu {
     left: 62.5vw !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 900 PX ========================================== */
 @media only screen and (min-width: 900px) {
   header .header__menu {
     left: 64.5vw !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 1024 PX ========================================== */
 @media only screen and (min-width: 1024px) {
   header .header__menu {
     left: 66.5vw !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 1100 PX ========================================== */
 @media only screen and (min-width: 1100px) {
   header .header__menu {
     left: 67.5vw !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 1200 PX ========================================== */
 @media only screen and (min-width: 1200px) {
   header .header__menu {
     left: 68.5vw !important;
@@ -473,30 +486,35 @@ header .header__menu {
   }
 }
 
+/* ========================================== MIN-WIDTH 1366 PX ========================================== */
 @media only screen and (min-width: 1366px) {
   header .header__menu {
     left: 70vw !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 1440 PX ========================================== */
 @media only screen and (min-width: 1440px) {
   header .header__menu {
     left: 70.5vw !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 1707 PX ========================================== */
 @media only screen and (min-width: 1707px) {
   header .header__menu {
     left: 72vw !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 2048 PX ========================================== */
 @media only screen and (min-width: 2048px) {
   header .header__menu {
     left: 73vw !important;
   }
 }
 
+/* ========================================== MIN-WIDTH 2560 PX ========================================== */
 @media only screen and (min-width: 2560px) {
   header .header__menu {
     left: 74.5vw !important;
