@@ -61,8 +61,8 @@ class Home extends Component {
         return(
             <div>
                 <Row>
-                    <Col s={12} m={12} className="header">{header}</Col>
-                    <Col m={5} className="sidebar">{sidebar}</Col>
+                    <Col s={12} m={12}>{header}</Col>
+                    {/* <Col m={3} className="Home__sidebar">{sidebar}</Col> */}
                     {/* <Col m={7} className="header">{content}</Col> */}
                     
                 </Row>

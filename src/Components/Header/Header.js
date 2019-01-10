@@ -3,6 +3,7 @@ import { Row, Col } from 'react-materialize';
 import PropTypes from 'prop-types';
 
 const header = (props) => {
+    // Create variable logo
     const logo = props.logo;
     
     return(
