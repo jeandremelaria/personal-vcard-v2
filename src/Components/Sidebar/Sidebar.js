@@ -1,48 +1,18 @@
 import React from 'react';
+import ContactInfo from './contactInfo/ContactInfo';
+import SocialmediaInfo from './socialmediaInfo/socialmediaInfo';
 import PropTypes from 'prop-types';
 
 const sidebar = (props) => {
     const user = props;
-    console.log(props);
+    // console.log(props);
     return (
         <div className="sidebar">
             <ul className="sidebar__info">
+                <ContactInfo email={user.email} phone={user.phone} website={user.website} />
+
                 <li className="sidebar__info__item">
-                    <strong>Email</strong>
-                    <span>{user.email}</span>
-                </li>
-                <li className="sidebar__info__item">
-                    <strong>Phone</strong>
-                    <span>{user.phone}</span>
-                </li>
-                <li className="sidebar__info__item">
-                    <strong>Website</strong>
-                    <span>{user.website}</span>
-                </li>
-                <li className="sidebar__info__item">
-                    <strong>Find Me On</strong>
-                    <ul className="socialMedia">
-                        <li className="socialMedia__icon">
-                            <a href={"https://" + user.facebook} target="_blank" rel="noopener noreferrer">
-                                <i className="fab fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li className="socialMedia__icon">
-                            <a href={"https://" + user.instagram} target="_blank" rel="noopener noreferrer">
-                                <i className="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li className="socialMedia__icon">
-                            <a href={"https://" + user.twitter} target="_blank" rel="noopener noreferrer">
-                                <i className="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li className="socialMedia__icon">
-                            <a href={"https://" + user.dribbble} target="_blank" rel="noopener noreferrer">
-                                <i className="fab fa-dribbble"></i>
-                            </a>
-                        </li>
-                    </ul>
+                    <SocialmediaInfo facebook={user.facebook} instagram={user.instagram} twitter={user.twitter} dribbble={user.dribbble}/>
                 </li>
             </ul>
 

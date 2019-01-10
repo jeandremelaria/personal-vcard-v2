@@ -12,9 +12,9 @@ header {
 
    .header__menu {
       color:$tertiaryColor;
+      margin: 0.2rem 0 0 3.4rem;
       margin-top:0.2rem;
-      font-size:2rem;
-      margin-left:3.4rem;
+      font-size:($font-size + 1.12rem);
    }
 }
 

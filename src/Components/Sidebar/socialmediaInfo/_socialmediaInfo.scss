@@ -1,0 +1,19 @@
+/* ----- Socialmedia Info Styles ----- */
+// General
+.socialMedia{
+    &__icon{
+        display: inline-block;
+        margin: 0.5rem 0.8rem 0.5rem -0.1rem;
+    }
+
+    a {
+        color: $tertiaryColor;
+        &:hover {
+            color: $quaternaryColor;
+        }
+
+        &:active {
+            color: $secundaryColor;
+        }
+    }
+}

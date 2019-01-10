@@ -372,9 +372,9 @@ header .header__logo {
 
 header .header__menu {
   color: #fff;
+  margin: 0.2rem 0 0 3.4rem;
   margin-top: 0.2rem;
   font-size: 2rem;
-  margin-left: 3.4rem;
 }
 
 /* ========================================== MAX-WIDTH 320 PX ========================================== */
@@ -519,12 +519,31 @@ header .header__menu {
 }
 
 .sidebar {
+  display: none;
   background-color: #4A21FC;
   border-bottom: #fff solid 8px;
   width: 100vw;
   height: 35vh;
 }
 
+/* ========================================== MIN-WIDTH 768 PX ========================================== */
+@media only screen and (min-width: 768px) {
+  .sidebar {
+    display: block;
+  }
+}
+
+/* ========================================== MIN-WIDTH 800 PX ========================================== */
+/* ========================================== MIN-WIDTH 900 PX ========================================== */
+/* ========================================== MIN-WIDTH 1024 PX ========================================== */
+/* ========================================== MIN-WIDTH 1100 PX ========================================== */
+/* ========================================== MIN-WIDTH 1200 PX ========================================== */
+/* ========================================== MIN-WIDTH 1300 PX ========================================== */
+/* ========================================== MIN-WIDTH 1366 PX ========================================== */
+/* ========================================== MIN-WIDTH 1440 PX ========================================== */
+/* ========================================== MIN-WIDTH 1707 PX ========================================== */
+/* ========================================== MIN-WIDTH 2048 PX ========================================== */
+/* ========================================== MIN-WIDTH 2560 PX ========================================== */
 /* ----- Home Styles ----- */
 .header {
   height: 9vh;
@@ -582,5 +601,33 @@ header .header__menu {
 
 .user .btn__resume {
   display: inline-block;
+}
+
+/* ----- Contact Info Styles ----- */
+.sidebar__info__item {
+  color: #fff;
+  margin: 0.8rem;
+}
+
+.sidebar__info__item span {
+  display: block;
+}
+
+/* ----- Socialmedia Info Styles ----- */
+.socialMedia__icon {
+  display: inline-block;
+  margin: 0.5rem 0.8rem 0.5rem -0.1rem;
+}
+
+.socialMedia a {
+  color: #fff;
+}
+
+.socialMedia a:hover {
+  color: #545454;
+}
+
+.socialMedia a:active {
+  color: #D2D2D2;
 }
 /*# sourceMappingURL=App.css.map */
