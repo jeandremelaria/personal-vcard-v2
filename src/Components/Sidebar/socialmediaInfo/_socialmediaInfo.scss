@@ -1,9 +1,11 @@
 /* ----- Socialmedia Info Styles ----- */
 // General
 .socialMedia{
+    color: $tertiaryColor;
+    margin-left:0.8rem;
     &__icon{
         display: inline-block;
-        margin: 0.5rem 0.8rem 0.5rem -0.1rem;
+        margin: 0.5rem 0.8rem 0.5rem 0.1rem;
     }
 
     a {

@@ -62,7 +62,7 @@ class Home extends Component {
             <div>
                 <Row>
                     <Col s={12} m={12}>{header}</Col>
-                    {/* <Col m={3} className="Home__sidebar">{sidebar}</Col> */}
+                    <Col m={3}>{sidebar}</Col>
                     {/* <Col m={7} className="header">{content}</Col> */}
                     
                 </Row>

@@ -364,7 +364,7 @@ header {
   background-color: #4A21FC;
   width: 100vw;
   border-bottom: 4px solid #fff;
-  margin-left: -12px;
+  margin-left: -13px;
 }
 
 header .header__logo {
@@ -375,7 +375,6 @@ header .header__logo {
 header .header__menu {
   color: #fff;
   margin: 0.2rem 0 0 3.4rem;
-  margin-top: 0.2rem;
   font-size: 2rem;
 }
 
@@ -521,6 +520,29 @@ header .header__menu {
   }
 }
 
+.sidebar {
+  display: none;
+  border-right: 4px solid #fff;
+  background-color: #4A21FC;
+  margin-left: -13px;
+  width: 30vw;
+  position: absolute;
+  top: 8vh;
+  bottom: 0;
+}
+
+.sidebar__information {
+  position: relative;
+  top: 55vh;
+}
+
+/* ========================================== MIN-WIDTH 768 PX ========================================== */
+@media only screen and (min-width: 768px) {
+  .sidebar {
+    display: block;
+  }
+}
+
 /* ----- Home Styles ----- */
 /* ========================================== MIN-WIDTH 600 PX ========================================== */
 /* ----- Home Content Styles ----- */
@@ -585,9 +607,14 @@ header .header__menu {
 }
 
 /* ----- Socialmedia Info Styles ----- */
+.socialMedia {
+  color: #fff;
+  margin-left: 0.8rem;
+}
+
 .socialMedia__icon {
   display: inline-block;
-  margin: 0.5rem 0.8rem 0.5rem -0.1rem;
+  margin: 0.5rem 0.8rem 0.5rem 0.1rem;
 }
 
 .socialMedia a {

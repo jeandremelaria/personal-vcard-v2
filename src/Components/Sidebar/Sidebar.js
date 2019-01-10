@@ -1,26 +1,21 @@
 import React from 'react';
-// import ContactInfo from './contactInfo/ContactInfo';
-// import SocialmediaInfo from './socialmediaInfo/socialmediaInfo';
+import ContactInfo from './contactInfo/ContactInfo';
+import SocialmediaInfo from './socialmediaInfo/socialmediaInfo';
 import PropTypes from 'prop-types';
 
 const sidebar = (props) => {
     const user = props;
     // console.log(props);
     return (
-        <div className="sidebar green">
-           <p>sidebar</p>
-        </div>
-        // <div className="sidebar">
-        //     <ul className="sidebar__info purple">
-        //         <li>
-        //             <ContactInfo email={user.email} phone={user.phone} website={user.website} />
-        //         </li>
+        <div className="sidebar">
+            <div className="sidebar__information">
+                 {/* Contact information */}
+                <ContactInfo email={user.email} phone={user.phone} website={user.website} />
 
-        //         <li className="sidebar__info__item">
-        //             <SocialmediaInfo facebook={user.facebook} instagram={user.instagram} twitter={user.twitter} dribbble={user.dribbble}/>
-        //         </li>
-        //     </ul>
-        // </div>
+                {/* Socialmedia information */}
+                <SocialmediaInfo facebook={user.facebook} instagram={user.instagram} twitter={user.twitter} dribbble={user.dribbble}/>
+            </div>
+        </div>
     );
 }
 

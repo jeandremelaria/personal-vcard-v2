@@ -5,7 +5,7 @@ header {
    background-color:$primaryColor;
    width:100vw;
    border-bottom: 4px solid $tertiaryColor;
-   margin-left:-12px;
+   margin-left:-13px;
 
    .header__logo {
       width:70px;
@@ -15,7 +15,6 @@ header {
    .header__menu {
       color:$tertiaryColor;
       margin: 0.2rem 0 0 3.4rem;
-      margin-top:0.2rem;
       font-size:($font-size + 1.12rem);
    }
 }

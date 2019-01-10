@@ -1,22 +1,29 @@
-// .sidebar {
-//     display: none;
-//     border-right: 4px solid $tertiaryColor;
-//     margin-left:-12px;
-//     position: absolute;
-//     top:33px!important;
-//     bottom: 0;
+.sidebar {
+    display: none;
+    border-right: 4px solid $tertiaryColor;
+    background-color: $primaryColor;
+    margin-left:-13px;
+    width: 30vw;
+    position: absolute;
+    top:8vh;
+    bottom: 0;
+
+    &__information {
+        position: relative;
+        top:55vh;
+    }
 
     
-// }
+}
 
-// // Media Queries
+// Media Queries
 
-// /* ========================================== MIN-WIDTH 768 PX ========================================== */
-// @media only screen and (min-width: 768px){
-//     .sidebar {
-//         display: block;
-//     }
-// }
+/* ========================================== MIN-WIDTH 768 PX ========================================== */
+@media only screen and (min-width: 768px){
+    .sidebar {
+        display: block;
+    }
+}
 
 // /* ========================================== MIN-WIDTH 800 PX ========================================== */
 // @media only screen and (min-width: 800px){
