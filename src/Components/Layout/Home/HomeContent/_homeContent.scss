@@ -1,16 +1,31 @@
 /* ----- Home Content Styles ----- */
+
+// Extend/Inheritance
+%button {
+    display: inline-block;
+    margin: 0 1rem 1.5rem 0;
+    height:42px;
+    width: 120px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+}
+
 // General
 .profilePhoto {
     width: 100%;
-    height: 15rem;
+    height: 20rem;
     display: block;
     margin: 0 auto;
     position: relative;
+    top:-12rem;
 
 }
 
 .user {
     text-align: center;
+    position: relative;
+    top:-10rem;
 
     &__firstname {
         color: $quinaryColor;
@@ -26,27 +41,33 @@
     }
 
     &__profileTitle {
-        margin: 0.5rem;
+        margin:1rem 0 1rem 0;
         font-weight: bold;
     }
 
     &__profileSummary {
-        color: $quinaryColor;
+        color: $quaternaryColor;
         margin-bottom: 2rem;
+        line-height: normal;
     }
 
-    .btn {
-        display: block;
+    .button {
+        display:inline-block;
         position: relative;
-        margin: 0 auto;
-
-        &__portfolio {
-            display: inline-block;
-            margin: 0 0.5rem 1.5rem 0;
+        left:0.5rem;
+        .btn {
+            &__portfolio {
+                @extend %button;
+                background-color: $primaryColor;
+                color:$tertiaryColor;
         }
 
-        &__resume {
-            display: inline-block;
+            &__resume {
+                @extend %button;
+                color:$quaternaryColor;
+                border:2px solid $quaternaryColor;
+            }
         }
     }
+    
 }

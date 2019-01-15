@@ -18,12 +18,13 @@ const homeContent = (props) => {
                     </li>
                     <li className="user__profileTitle">{user.profileTitle}</li>
                     <li className="user__profileSummary">{user.profileSummary}</li>
+
                     <ul>
-                        <li className="btn">
-                            <button className="btn__portfolio">Portfolio</button>
+                        <li className="button">
+                            <button className="btn__portfolio">Portfolio</button> 
                         </li>
-                        <li className="btn">
-                            <button className="btn__resume">Portfolio</button>
+                        <li className="button">
+                            <button className="btn__resume">Resume</button>
                         </li>
                     </ul>
                 </ul>

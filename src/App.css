@@ -360,7 +360,7 @@ body {
 
 /* ----- Header Styles ----- */
 header {
-  height: 32vh;
+  height: 40vh;
   background-color: #4A21FC;
   width: 100vw;
   border-bottom: 4px solid #fff;
@@ -546,16 +546,29 @@ header .header__menu {
 /* ----- Home Styles ----- */
 /* ========================================== MIN-WIDTH 600 PX ========================================== */
 /* ----- Home Content Styles ----- */
+.user .button .btn__portfolio, .user .button .btn__resume {
+  display: inline-block;
+  margin: 0 1rem 1.5rem 0;
+  height: 42px;
+  width: 120px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+}
+
 .profilePhoto {
   width: 100%;
-  height: 15rem;
+  height: 20rem;
   display: block;
   margin: 0 auto;
   position: relative;
+  top: -12rem;
 }
 
 .user {
   text-align: center;
+  position: relative;
+  top: -10rem;
 }
 
 .user__firstname {
@@ -572,28 +585,30 @@ header .header__menu {
 }
 
 .user__profileTitle {
-  margin: 0.5rem;
+  margin: 1rem 0 1rem 0;
   font-weight: bold;
 }
 
 .user__profileSummary {
-  color: #000;
+  color: #545454;
   margin-bottom: 2rem;
+  line-height: normal;
 }
 
-.user .btn {
-  display: block;
+.user .button {
+  display: inline-block;
   position: relative;
-  margin: 0 auto;
+  left: 0.5rem;
 }
 
-.user .btn__portfolio {
-  display: inline-block;
-  margin: 0 0.5rem 1.5rem 0;
+.user .button .btn__portfolio {
+  background-color: #4A21FC;
+  color: #fff;
 }
 
-.user .btn__resume {
-  display: inline-block;
+.user .button .btn__resume {
+  color: #545454;
+  border: 2px solid #545454;
 }
 
 /* ----- Contact Info Styles ----- */

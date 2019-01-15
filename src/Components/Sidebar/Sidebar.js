@@ -22,7 +22,7 @@ const sidebar = (props) => {
 export default sidebar;
 
 // Check proptypes
-sidebar.PropTypes = {
+sidebar.propTypes = {
     email:PropTypes.string.isRequired,
     phone:PropTypes.number.isRequired,
     website:PropTypes.string.isRequired,
