@@ -59,7 +59,7 @@ class Home extends Component {
         }
         
         return(
-            <div>
+            <div className="wrapper">
                 <Row>
                     <Col s={12} m={12}>{header}</Col>
                     <Col m={3}>{sidebar}</Col>

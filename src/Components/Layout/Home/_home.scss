@@ -1,17 +1,69 @@
 /* ----- Home Styles ----- */
 // General
-// .Home__header {
-//     height:9vh;
-//     width:107.5vw!important;
-// }
+.wrapper {
+    border-right: none;
+    height:100vh;
+    width: 100vw;
+}
 
-// .Home__sidebar {
-//     width:30vw;
-// }
 // Media Queries
-/* ========================================== MIN-WIDTH 600 PX ========================================== */
-// @media only screen and (min-width: 600px){
-//     .header {
-//         width:114vw!important;
-//     }
-// }
+/* ========================================== MIN-WIDTH 768 PX ========================================== */
+@media only screen and (min-width: 768px){
+    .wrapper {
+        border-right: 8px solid $primaryColor;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 1024 PX ========================================== */
+@media only screen and (min-width: 1024px){
+    .wrapper {
+        width:105.7vw;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 1100 PX ========================================== */
+@media only screen and (min-width: 1100px){
+
+}
+
+ /* ========================================== MIN-WIDTH 1200 PX ========================================== */
+@media only screen and (min-width: 1200px){
+
+}
+
+ // /* ========================================== MIN-WIDTH 1300 PX ========================================== */
+@media only screen and (min-width: 1300px){
+    .wrapper {
+        width:106vw;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 1366 PX ========================================== */
+@media only screen and (min-width: 1366px){
+
+}
+
+ /* ========================================== MIN-WIDTH 1440 PX ========================================== */
+@media only screen and (min-width: 1440px){
+
+}
+
+ /* ========================================== MIN-WIDTH 1707 PX ========================================== */
+@media only screen and (min-width: 1707px){
+    
+}
+
+ /* ========================================== MIN-WIDTH 2048 PX ========================================== */
+@media only screen and (min-width: 2048px){
+    .wrapper {
+        width:99.1vw;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 2560 PX ========================================== */
+@media only screen and (min-width: 2560px){
+    .wrapper {
+        width:105.4vw;
+    }
+}
+

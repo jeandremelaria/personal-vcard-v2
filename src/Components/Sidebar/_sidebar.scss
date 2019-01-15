@@ -22,6 +22,7 @@
 @media only screen and (min-width: 768px){
     .sidebar {
         display: block;
+        width: 30vw;
     }
 }
 
@@ -36,20 +37,22 @@
 // }
 
 // /* ========================================== MIN-WIDTH 1024 PX ========================================== */
-// @media only screen and (min-width: 1024px){
- 
-// }
+@media only screen and (min-width: 1024px){
+    .sidebar {
+        width: 40vw;
+        top:7.5vh;
+    }
+}
 
 // /* ========================================== MIN-WIDTH 1100 PX ========================================== */
-// @media only screen and (min-width: 1100px){
-   
-// }
+@media only screen and (min-width: 1100px){
+    
+}
 
 // /* ========================================== MIN-WIDTH 1200 PX ========================================== */
-// @media only screen and (min-width: 1200px){
-  
-  
-// }
+@media only screen and (min-width: 1200px){
+   
+}
 
 // /* ========================================== MIN-WIDTH 1300 PX ========================================== */
 // @media only screen and (min-width: 1300px){

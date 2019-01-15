@@ -70,15 +70,6 @@ header {
    }  
 }
 
-/* ========================================== MIN-WIDTH 700 PX ========================================== */
-@media only screen and (min-width: 700px){
-   .header {
-      .header__menu {
-         left:5.2rem;
-      }
-   }  
-}
-
 /* ========================================== MIN-WIDTH 768 PX ========================================== */
 @media only screen and (min-width: 768px){
    header {
@@ -116,8 +107,9 @@ header {
 /* ========================================== MIN-WIDTH 1024 PX ========================================== */
 @media only screen and (min-width: 1024px){
    header {
+      width: 40vw;
       .header__menu {
-         left:66.5vw!important;
+         left:65.5vw!important;
       }
    }
 }
@@ -126,7 +118,7 @@ header {
 @media only screen and (min-width: 1100px){
    header {
       .header__menu {
-         left:67.5vw!important;
+         left:66.5vw!important;
       }
    }
 }
@@ -135,7 +127,7 @@ header {
 @media only screen and (min-width: 1200px){
    header {
       .header__menu {
-         left:68.5vw!important;
+         left:67.5vw!important;
       }
    }
 }
@@ -144,7 +136,7 @@ header {
 @media only screen and (min-width: 1300px){
    header {
       .header__menu {
-         left:69.5vw!important;
+         left:68.5vw!important;
       }
    }
 }
@@ -153,7 +145,7 @@ header {
 @media only screen and (min-width: 1366px){
    header {
       .header__menu {
-         left:70vw!important;
+         left:69vw!important;
       }
    }
 }
@@ -162,7 +154,7 @@ header {
 @media only screen and (min-width: 1440px){
    header {
       .header__menu {
-         left:70.5vw!important;
+         left:69.5vw!important;
       }
    }
 }
@@ -171,7 +163,7 @@ header {
 @media only screen and (min-width: 1707px){
    header {
       .header__menu {
-         left:72vw!important;
+         left:71vw!important;
       }
    }
 }
@@ -180,7 +172,7 @@ header {
 @media only screen and (min-width: 2048px){
    header {
       .header__menu {
-         left:73vw!important;
+         left:65.5vw!important;
       }
    }
 }
@@ -189,7 +181,7 @@ header {
 @media only screen and (min-width: 2560px){
    header {
       .header__menu {
-         left:74.5vw!important;
+         left:73vw!important;
       }
    }
 }

@@ -71,3 +71,141 @@
     }
     
 }
+
+// Media Queries
+ /* ========================================== MIN-WIDTH 375 PX ========================================== */
+@media only screen and (min-width: 375px){
+   
+}
+
+ /* ========================================== MIN-WIDTH 425 PX ========================================== */
+@media only screen and (min-width: 425px){
+    .profilePhoto {
+        width: 90%;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 500 PX ========================================== */
+@media only screen and (min-width: 500px){
+    .profilePhoto {
+        width: 80%;
+        height: 26rem;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 600 PX ========================================== */
+@media only screen and (min-width: 600px){
+    .profilePhoto {
+        width: 70%;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 700 PX ========================================== */
+ @media only screen and (min-width: 700px){
+
+ }
+
+ /* ========================================== MIN-WIDTH 768 PX ========================================== */
+@media only screen and (min-width: 768px){
+    .profilePhoto { 
+        top:-0.5rem;
+        width: 40%;
+        left:5rem;
+        height: 14rem;
+    }
+
+    .user {
+        top:1rem;
+        left:5rem;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 1024 PX ========================================== */
+@media only screen and (min-width: 1024px){
+    .profilePhoto {
+        height: 32rem;
+        width: 60%;
+        left:-10rem;
+        top:0.5rem;
+    }
+    .user {
+        top:-25rem;
+        left:21rem;
+        width:70%;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 1100 PX ========================================== */
+@media only screen and (min-width: 1100px){
+    .user {
+        left:23rem;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 1200 PX ========================================== */
+@media only screen and (min-width: 1200px){
+    .user {
+        left:28rem;
+        width:60%;
+    }
+}
+
+ // /* ========================================== MIN-WIDTH 1300 PX ========================================== */
+@media only screen and (min-width: 1300px){
+    .user {
+        left:31rem;  
+    }
+}
+
+ /* ========================================== MIN-WIDTH 1366 PX ========================================== */
+@media only screen and (min-width: 1366px){
+    .user {
+        left:33rem;  
+    }
+}
+
+ /* ========================================== MIN-WIDTH 1440 PX ========================================== */
+@media only screen and (min-width: 1440px){
+    .user {
+        left:35rem;  
+    }
+}
+
+ /* ========================================== MIN-WIDTH 1707 PX ========================================== */
+@media only screen and (min-width: 1707px){
+    .profilePhoto {
+        height: 36rem;
+        width: 50%;
+        left:-15rem;
+        top:-0.1rem;
+    }
+    .user {
+        top:-25rem;
+        left:36rem;
+        width:70%;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 2048 PX ========================================== */
+@media only screen and (min-width: 2048px){
+    .profilePhoto {
+        height: 38rem;
+    }
+    .user {
+        top:-27rem;
+        left:41rem;
+    }
+}
+
+ /* ========================================== MIN-WIDTH 2560 PX ========================================== */
+@media only screen and (min-width: 2560px){
+    .profilePhoto {
+        height: 58rem;
+        top:-1.5rem;
+    }
+    .user {
+        top:-37rem;
+        left:62rem;
+        width: 60%;
+    }
+}
