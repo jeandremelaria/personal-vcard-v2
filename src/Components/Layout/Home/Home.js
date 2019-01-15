@@ -66,7 +66,6 @@ class Home extends Component {
                     <Col m={7}>{content}</Col>
                 </Row>
                 {/* {header} */}
-
             </div>
         );
     }
