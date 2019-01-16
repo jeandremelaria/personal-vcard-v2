@@ -3,7 +3,7 @@ import React from 'react';
 const socialmediaInfo = (props) => {
     return(
         <ul className="socialMedia">
-            <li><strong>Find Me On</strong></li>
+            <li><strong className="findMeOn">Find Me On</strong></li>
             <li className="socialMedia__icon">
                 <a href={"https://" + props.facebook} target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-facebook"></i>

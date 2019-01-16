@@ -5,11 +5,12 @@ const contactInfo = (props) => {
         <ul>
             <li className="sidebar__info__item">
                 <strong>Email</strong>
-                <span>{props.email}</span>
+                <span>{props.email}
+                </span>
             </li>
             <li className="sidebar__info__item">
                 <strong>Phone</strong>
-                <span> (+) {props.phone}</span>
+                <span>(+) {props.phone}</span>
             </li>
             <li className="sidebar__info__item">
                 <strong>Website</strong>

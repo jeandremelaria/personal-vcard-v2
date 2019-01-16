@@ -537,6 +537,7 @@ header .header__menu {
   .sidebar {
     display: block;
     width: 30vw;
+    top: 7.5vh;
   }
 }
 
@@ -817,5 +818,104 @@ header .header__menu {
 
 .socialMedia a:active {
   color: #D2D2D2;
+}
+
+/* ----- Footer Styles ----- */
+footer {
+  height: 14vh;
+  background-color: #4A21FC;
+  width: 102vw;
+  margin-left: -13px;
+  margin-right: 0;
+  margin-bottom: -20px;
+}
+
+footer .socialMedia {
+  display: block;
+  position: relative;
+  left: 32vw;
+  padding-top: 0.5rem;
+  width: 50%;
+}
+
+footer .socialMedia .findMeOn {
+  display: none !important;
+}
+
+footer ul {
+  color: #fff;
+  margin-left: 2.5vw;
+  padding-top: .5rem;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+/* ========================================== MIN-WIDTH 350 PX ========================================== */
+@media only screen and (min-width: 350px) {
+  footer .socialMedia {
+    left: 33vw;
+  }
+  footer ul {
+    margin-left: 7.5vw;
+  }
+}
+
+/* ========================================== MIN-WIDTH 375 PX ========================================== */
+@media only screen and (min-width: 375px) {
+  footer .socialMedia {
+    left: 34vw;
+  }
+  footer ul {
+    margin-left: 10vw;
+  }
+}
+
+/* ========================================== MIN-WIDTH 400 PX ========================================== */
+@media only screen and (min-width: 400px) {
+  footer .socialMedia {
+    left: 36vw;
+  }
+  footer ul {
+    margin-left: 13vw;
+  }
+}
+
+/* ========================================== MIN-WIDTH 425 PX ========================================== */
+@media only screen and (min-width: 425px) {
+  footer .socialMedia {
+    left: 37vw;
+  }
+  footer ul {
+    margin-left: 15vw;
+  }
+}
+
+/* ========================================== MIN-WIDTH 500 PX ========================================== */
+@media only screen and (min-width: 500px) {
+  footer .socialMedia {
+    left: 38vw;
+  }
+  footer ul {
+    margin-left: 19vw;
+  }
+}
+
+/* ========================================== MIN-WIDTH 600 PX ========================================== */
+@media only screen and (min-width: 600px) {
+  footer .socialMedia {
+    left: 40vw;
+  }
+  footer ul {
+    margin-left: 25vw;
+  }
+}
+
+/* ========================================== MIN-WIDTH 768 PX ========================================== */
+@media only screen and (min-width: 768px) {
+  footer {
+    display: none;
+  }
 }
 /*# sourceMappingURL=App.css.map */

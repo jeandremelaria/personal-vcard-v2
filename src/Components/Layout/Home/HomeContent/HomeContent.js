@@ -4,7 +4,6 @@ import { Row, Col } from 'react-materialize';
 
 const homeContent = (props) => {
     const user = props;
-    console.log(user);
     return (
         <Row>
             <Col s={12}>

@@ -4,6 +4,7 @@ import axios from 'axios';
 import Header from '../../Header/Header';
 import Sidebar from '../../Sidebar/Sidebar';
 import Content from '../Home/HomeContent/HomeContent';
+import Footer from '../../Footer/Footer';
 
 
 
@@ -31,7 +32,7 @@ class Home extends Component {
     }
 
     render(){
-        let header, sidebar, content = null;
+        let header, sidebar, content, footer = null;
         
         // Check if user is set
         if(this.state.user[0]){
@@ -56,6 +57,16 @@ class Home extends Component {
                         profileTitle = {user.profile_title}
                         profileSummary = {user.profile_summary}
             />;
+
+            footer = <Footer 
+                        email = {user.email}
+                        phone = {user.phone}
+                        website = { user.website_url}
+                        facebook = {user.facebook}
+                        instagram = {user.instagram}
+                        twitter = {user.twitter}
+                        dribbble = {user.dribbble}
+            />
         }
         
         return(
@@ -64,8 +75,8 @@ class Home extends Component {
                     <Col s={12} m={12}>{header}</Col>
                     <Col m={3}>{sidebar}</Col>
                     <Col m={7}>{content}</Col>
+                    <Col>{footer}</Col>
                 </Row>
-                {/* {header} */}
             </div>
         );
     }
