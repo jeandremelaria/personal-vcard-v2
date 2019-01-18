@@ -2,16 +2,19 @@ import React, { Component } from 'react';
 import { Row, Col } from 'react-materialize';
 import axios from 'axios';
 import Header from '../../Header/Header';
+import Headermenu from '../../Header/HeaderMenu/HeaderMenu';
 import Sidebar from '../../Sidebar/Sidebar';
 import Content from '../Home/HomeContent/HomeContent';
 import Footer from '../../Footer/Footer';
+import { TweenMax } from 'gsap';
 
 
 
 class Home extends Component {
 
     state = {
-        user:[]
+        user:[],
+        showMenu: false
     }
 
     componentDidMount() {
@@ -31,14 +34,44 @@ class Home extends Component {
         });
     }
 
+    toggleMenu = () => {
+        const doesShowMenu = this.state.showMenu;
+        this.setState({showMenu: !doesShowMenu});
+        
+        let wrapper = document.getElementsByClassName("wrapper");
+        let headerMenu = document.getElementsByClassName("header__menu");
+
+        if(!doesShowMenu){
+            TweenMax.to(wrapper, 2, {left:"-60vw"});
+            TweenMax.to(headerMenu, 2, { left:"39vw"});
+
+        }
+
+        if(doesShowMenu){
+            TweenMax.to(wrapper, 2, {left:"0"});
+            TweenMax.to(headerMenu, 2, {left:"100vw"});
+        }
+            
+    
+
+
+        
+
+
+    }
+
     render(){
+        
+
         let header, sidebar, content, footer = null;
         
         // Check if user is set
         if(this.state.user[0]){
             const user = this.state.user[0];
 
-            header = <Header logo = {user.website_logo} />;
+            header = <Header logo = {user.website_logo} 
+                        clicked={this.toggleMenu}            
+            />;
 
             sidebar = <Sidebar 
                         email = {user.email}
@@ -67,16 +100,21 @@ class Home extends Component {
                         twitter = {user.twitter}
                         dribbble = {user.dribbble}
             />
+
         }
         
         return(
-            <div className="wrapper">
-                <Row>
+            
+            <div >
+                <Row className="wrapper">
                     <Col s={12} m={12}>{header}</Col>
                     <Col m={3}>{sidebar}</Col>
                     <Col m={7}>{content}</Col>
                     <Col>{footer}</Col>
                 </Row>
+                
+                <Headermenu />
+
             </div>
         );
     }

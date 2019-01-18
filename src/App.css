@@ -372,43 +372,51 @@ header .header__logo {
   margin-top: 0.7rem;
 }
 
-header .header__menu {
+header .header__icon {
   color: #fff;
   margin: 0.2rem 0 0 3.4rem;
   font-size: 2rem;
 }
 
+header .header__icon:hover {
+  cursor: pointer;
+}
+
+header .header__icon:active {
+  color: #232528;
+}
+
 /* ========================================== MIN-WIDTH 350 PX ========================================== */
 @media only screen and (min-width: 350px) {
-  .header__menu {
+  .header__icon {
     margin-left: 4rem !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 375 PX ========================================== */
 @media only screen and (min-width: 375px) {
-  .header__menu {
+  .header__icon {
     margin-left: 4.6rem !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 400 PX ========================================== */
 @media only screen and (min-width: 400px) {
-  .header__menu {
+  .header__icon {
     margin-left: 5rem !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 425 PX ========================================== */
 @media only screen and (min-width: 425px) {
-  .header__menu {
+  .header__icon {
     margin-left: 5.5rem !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 500 PX ========================================== */
 @media only screen and (min-width: 500px) {
-  .header .header__menu {
+  .header .header__icon {
     display: block;
     position: relative;
     left: 1.6rem;
@@ -417,7 +425,7 @@ header .header__menu {
 
 /* ========================================== MIN-WIDTH 600 PX ========================================== */
 @media only screen and (min-width: 600px) {
-  .header .header__menu {
+  .header .header__icon {
     left: 4.8rem;
   }
 }
@@ -430,7 +438,7 @@ header .header__menu {
     border-bottom: none;
     border-right: 4px solid #fff;
   }
-  header .header__menu {
+  header .header__icon {
     color: #545454;
     position: relative;
     left: 62vw !important;
@@ -439,14 +447,14 @@ header .header__menu {
 
 /* ========================================== MIN-WIDTH 800 PX ========================================== */
 @media only screen and (min-width: 800px) {
-  header .header__menu {
+  header .header__icon {
     left: 62.5vw !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 900 PX ========================================== */
 @media only screen and (min-width: 900px) {
-  header .header__menu {
+  header .header__icon {
     left: 64.5vw !important;
   }
 }
@@ -456,64 +464,86 @@ header .header__menu {
   header {
     width: 40vw;
   }
-  header .header__menu {
+  header .header__icon {
     left: 65.5vw !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 1100 PX ========================================== */
 @media only screen and (min-width: 1100px) {
-  header .header__menu {
+  header .header__icon {
     left: 66.5vw !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 1200 PX ========================================== */
 @media only screen and (min-width: 1200px) {
-  header .header__menu {
+  header .header__icon {
     left: 67.5vw !important;
   }
 }
 
 @media only screen and (min-width: 1300px) {
-  header .header__menu {
+  header .header__icon {
     left: 68.5vw !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 1366 PX ========================================== */
 @media only screen and (min-width: 1366px) {
-  header .header__menu {
+  header .header__icon {
     left: 69vw !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 1440 PX ========================================== */
 @media only screen and (min-width: 1440px) {
-  header .header__menu {
+  header .header__icon {
     left: 69.5vw !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 1707 PX ========================================== */
 @media only screen and (min-width: 1707px) {
-  header .header__menu {
+  header .header__icon {
     left: 71vw !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 2048 PX ========================================== */
 @media only screen and (min-width: 2048px) {
-  header .header__menu {
+  header .header__icon {
     left: 65.5vw !important;
   }
 }
 
 /* ========================================== MIN-WIDTH 2560 PX ========================================== */
 @media only screen and (min-width: 2560px) {
-  header .header__menu {
+  header .header__icon {
     left: 73vw !important;
   }
+}
+
+/* ----- Header Menu Styles ----- */
+.header__menu {
+  top: 0;
+  width: 60vw;
+  bottom: 0;
+  position: absolute;
+  background-color: #232528;
+  color: #fff;
+  left: 100vw;
+}
+
+.header__menu a {
+  color: #fff;
+}
+
+.header__menu a li {
+  margin: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #fff;
 }
 
 .sidebar {
@@ -553,6 +583,7 @@ header .header__menu {
   border-right: none;
   height: 100vh;
   width: 100vw;
+  position: relative;
 }
 
 /* ========================================== MIN-WIDTH 768 PX ========================================== */

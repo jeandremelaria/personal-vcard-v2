@@ -1,0 +1,24 @@
+/* ----- Header Menu Styles ----- */
+// General
+.header__menu {
+    top:0;
+    width: 60vw;
+    bottom: 0;
+    position: absolute;
+    background-color:$senaryColor;
+    color:$tertiaryColor;
+    left:100vw;
+    // left:39vw;
+
+
+    a {
+        color:$tertiaryColor;
+        li {
+            margin:1rem;
+            padding-top:0.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid $tertiaryColor;
+        }
+    }
+    
+}

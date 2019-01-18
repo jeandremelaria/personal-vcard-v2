@@ -3,6 +3,7 @@ import { Row, Col } from 'react-materialize';
 import PropTypes from 'prop-types';
 
 const header = (props) => {
+    
     // Create variable logo
     const logo = props.logo;
     
@@ -16,7 +17,7 @@ const header = (props) => {
 
                 {/* Menu icon */}
                 <Col s={4}>
-                    <i className="header__menu material-icons">menu</i>
+                    <i onClick={props.clicked} className="header__icon material-icons">menu</i>
                 </Col>
             </Row>
         </header>
