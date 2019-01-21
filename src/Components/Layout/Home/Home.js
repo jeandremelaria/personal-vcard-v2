@@ -6,7 +6,7 @@ import Headermenu from '../../Header/HeaderMenu/HeaderMenu';
 import Sidebar from '../../Sidebar/Sidebar';
 import Content from '../Home/HomeContent/HomeContent';
 import Footer from '../../Footer/Footer';
-import { TweenMax } from 'gsap';
+import { TweenMax, Back } from 'gsap';
 
 
 
@@ -43,13 +43,13 @@ class Home extends Component {
 
         if(!doesShowMenu){
             TweenMax.to(wrapper, 2, {left:"-60vw"});
-            TweenMax.to(headerMenu, 2, { left:"39vw"});
+            TweenMax.to(headerMenu, 2, { left:"39.2vw"});
 
         }
 
         if(doesShowMenu){
             TweenMax.to(wrapper, 2, {left:"0"});
-            TweenMax.to(headerMenu, 2, {left:"100vw"});
+            TweenMax.to(headerMenu, 2, {left:"99.2vw"});
         }
             
     

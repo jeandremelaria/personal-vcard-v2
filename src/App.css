@@ -532,7 +532,7 @@ header .header__icon:active {
   position: absolute;
   background-color: #232528;
   color: #fff;
-  left: 100vw;
+  left: 99.2vw;
 }
 
 .header__menu a {
@@ -875,7 +875,7 @@ footer .socialMedia .findMeOn {
 
 footer ul {
   color: #fff;
-  margin-left: 2.5vw;
+  margin-left: 3.5vw;
   padding-top: .5rem;
 }
 
