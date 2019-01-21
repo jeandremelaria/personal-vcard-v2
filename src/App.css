@@ -26,7 +26,6 @@ time, mark, audio, video {
 
 body {
   line-height: 1;
-  overflow-x: hidden;
 }
 
 article, aside, details, figcaption, figure,
@@ -533,6 +532,7 @@ header .header__icon:active {
   background-color: #232528;
   color: #fff;
   left: 99.2vw;
+  display: none;
 }
 
 .header__menu a {
@@ -875,7 +875,7 @@ footer .socialMedia .findMeOn {
 
 footer ul {
   color: #fff;
-  margin-left: 3.5vw;
+  margin-left: 3vw;
   padding-top: .5rem;
 }
 
