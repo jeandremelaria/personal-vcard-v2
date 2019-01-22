@@ -27,13 +27,13 @@ class App extends Component {
     return (
         isLoading ? <Preloader/> :
 
-    <Switch>
-        <Route exact path='/' component={Home}/> 
-        <Route path='/portfolio' component={Portfolio}/> 
-        <Route path='/resume' component={Resume}/> 
-        <Route path='/contact' component={Contact}/> 
-        <Route path='/login' component={Login}/> 
-      </Switch>
+        <Switch>
+          <Route exact path='/' component={Home}/> 
+          <Route path='/portfolio' component={Portfolio}/> 
+          <Route path='/resume' component={Resume}/> 
+          <Route path='/contact' component={Contact}/> 
+          <Route path='/login' component={Login}/> 
+        </Switch>
     );
   }
 }
